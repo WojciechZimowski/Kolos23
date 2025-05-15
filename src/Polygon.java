@@ -6,6 +6,11 @@ public class Polygon {
     public Polygon(List<Point> points) {
         this.points = points;
     }
+
+    public List<Point> getPoints() {
+        return points;
+    }
+
     public boolean inside(Point point){
         int counter=0;
         int size=points.size();
